@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/grayscale_home_24"/>
+
+    <item
+        android:id="@+id/video"
+        android:title="Video"
+        android:icon="@drawable/baseline_slow_motion_video_24"/>
+    <item
+        android:id="@+id/bookmark"
+        android:title="BookMark"
+        android:icon="@drawable/baseline_bookmark_border_24"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/profile"/>
+</menu>

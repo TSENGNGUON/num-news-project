@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977592131551",
+    "project_id": "numnews-ad9cf",
+    "storage_bucket": "numnews-ad9cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977592131551:android:86732434af6c533c6d2e6a",
+        "android_client_info": {
+          "package_name": "com.example.numnewsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1JLjb7udARoTAOorUcQhoewMM0ow9q2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

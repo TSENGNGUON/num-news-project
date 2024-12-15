@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_form"
+    android:background="@color/light_grey">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_title_choose_new_source"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+        <ImageView
+            android:id="@+id/back_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:contentDescription="@string/arrow_back"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            app:tint="@color/grayscale"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_new_source"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:textSize="16sp"
+            android:textFontWeight="700"
+            android:textColor="@color/grayscale"/>
+
+    </LinearLayout>
+
+    <!--  UI Profile  -->
+
+    <LinearLayout
+        android:id="@+id/layout_user_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/layout_user_source_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141">
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center">
+
+            <!-- Camera Icon Overlay at Bottom Right -->
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/circular_image" />
+
+            <ImageView
+                android:id="@+id/camera_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="4dp"
+                android:background="@drawable/circle_bg_camera_icon"
+                android:contentDescription="@string/ds_camera"
+                android:padding="3dp"
+                android:src="@drawable/ic_camera" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_user_source_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7">
+        <!-- Label name -->
+
+        <!-- Label  full name -->
+
+        <!-- Label  Email Address -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:labelFor="@id/txt_email_address"
+            android:paddingLeft="55sp"
+            android:paddingRight="55sp"
+            android:text="@string/email_address"
+            android:textColor="#7C7B82"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_email_address"
+            android:layout_width="343dp"
+            android:layout_height="54dp"
+            android:background="@drawable/layout_fill_source"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:hint="Enter Email Address"
+            android:textSize="20sp" />
+
+        <!-- Label  Phone Number -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:labelFor="@+id/password_toggle"
+            android:paddingLeft="55sp"
+            android:paddingRight="55sp"
+            android:text="@string/pass"
+            android:textColor="#7C7B82"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Label  Phone Number -->
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="343dp"
+            android:layout_height="54dp"
+            android:background="@drawable/layout_fill_source"
+            android:hint="Input Password"
+            android:inputType="textPassword"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:labelFor="@+id/txt_confirmNewPass"
+            android:paddingLeft="55sp"
+            android:paddingRight="55sp"
+            android:text="Comfirm Password"
+            android:textColor="#7C7B82"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/conFirmPassword"
+            android:layout_width="343dp"
+            android:layout_height="54dp"
+            android:background="@drawable/layout_fill_source"
+            android:hint="Comfirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/layout_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_next"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_cyan"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:text="Sign Up"
+                app:cornerRadius="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registered"
+                android:text="Registered already, Login"
+                android:layout_marginTop="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/layout_title_choose_new_source">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

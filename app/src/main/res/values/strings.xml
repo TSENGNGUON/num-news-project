@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">NumNewsApp</string>
+    <string name="logo_of_app" />
+    <string name="login_acc">Login Your Account</string>
+    <string name="title">NUM NEWS</string>
+    <string name="sub_title">Welcome</string>
+    <string name="placeHolder_Email">Enter Your Email</string>
+    <string name="placeHolder_password">Enter Your Password</string>
+    <string name="forgot_password">
+        Forgot Password ?
+    </string>
+    <string name="login_button">Login</string>
+    <string name="sign_up">or Sign Up</string>
+    <string name="noAccount_asking">"don't have an account ?"</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="forgot_password_page">Forgot Password</string>
+    <string name="instruction_text">Don’t worry! it happens. Please enter the
+address associated with your account.</string>
+    <string name="arrow_back">arrow back icon</string>
+    <string name="placeHolder_forgot_email">Email</string>
+    <string name="verify_button">Verify</string>
+    <string name="back_button">Back</string>
+    <string name="new_password_page">New Password</string>
+    <string name="placeHolder_newPassword">New Password</string>
+    <string name="placeHolder_ConfirmnewPassword">Confirm New Password</string>
+    <string name="choose_new_source">Choose your new source</string>
+    <string name="profile_description">user can choose own profile</string>
+    <string name="ds_camera">camera icon</string>
+    <string name="username">Username</string>
+    <string name="fullname">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_numer">Phone Number</string>
+    <string name="next_button">Next</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="search">Search</string>
+    <string name="see_all">See all</string>
+    <string name="default_img">Default for image</string>
+    <string name="trending">Trending</string>
+    <string name="cambodia">Cambodia</string>
+    <string name="content_news">BMC is back for Season 15! Applications are now open for the 2025 .</string>
+    <string name="release_hours">4h ago</string>
+    <string name="category_all">All</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_politics">Politics</string>
+    <string name="category_health">Health</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_science">Science</string>
+    <string name="category_fashion">Fashion</string>
+    <string name="content_news1">The highest anticipated program of 2025 </string>
+    <string name="brand_news_BBC">BBC News</string>
+    <string name="europe">Europe</string>
+    <string name="content_news2">"Ukraine's President Zelensky to BBC: Blood money being paid..."</string>
+    <string name="home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_bookmark">Bookmark</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_num_news">NUM News</string>
+    <string name="content_news_page1">t is a long established fact that a reader will be distracted by the readable </string>
+    <string name="title_of_news1">The highest anticipated program of 2025 </string>
+    <string name="content_of_new1">   BMC is back for Season 15! Applications are now open for the 2025 National Business Model Competition (BMC Cambodia). The competition invites student teams of up to three members to submit their unique business or social venture ideas. The deadline for applications is December 1, 2024. All university and high school students are eligible to apply.  Please contact our team at NUM Social Innovation Lab if you have any questions!</string>
+    <string name="temp_content"> BMC is back for Season 15! Applications are now open for the 2025 .</string>
+    <string name="pass">Password</string>
+    <string name="content_newsPage">    To the New Beginnings and Exciting Adventures!
+Congratulations to 6 NUM International College students who are undertaking a one-semester exchange program through our partnership with Japanese Universities!
+1. Mr. Oeng Leangsin and Ms. Leang Leakhena will study one semester at the University of of Fukui.
+2. Mr. Lim Tayseang and Mr. Yin Longma will study one semester at the University of Hyogo.
+3. Mr. Noun Vongheng and Ms. Kim Sreypich will study one semester at the Osaka University of Economics and Law.
+NUMIC wishes all of them endless opportunities and boundless success.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
